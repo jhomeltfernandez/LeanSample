@@ -1,0 +1,187 @@
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\obj\Debug\jtf_Project.Admin.Migrations.InitTables.resources
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\obj\Debug\jtf_Project.Admin.csproj.GenerateResource.Cache
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\jtf_Project.Admin.dll.config
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\jtf_Project.Admin.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\jtf_Project.Admin.pdb
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Antlr3.Runtime.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\EntityFramework.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\EntityFramework.SqlServer.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\jtf_Project.Data.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\jtf_Project.WebHelper.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.Owin.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.Owin.Security.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Newtonsoft.Json.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Owin.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\System.Web.Helpers.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\System.Web.Mvc.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\System.Web.Optimization.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\System.Web.Razor.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\System.Web.WebPages.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\System.Web.WebPages.Razor.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\WebGrease.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\jtf_Project.Data.pdb
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\jtf_Project.WebHelper.pdb
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\System.Web.Helpers.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\System.Web.Mvc.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\System.Web.Optimization.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\System.Web.Razor.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\System.Web.WebPages.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\System.Web.WebPages.Razor.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Antlr3.Runtime.pdb
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Newtonsoft.Json.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\EntityFramework.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\EntityFramework.SqlServer.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.Owin.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.Owin.Security.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\obj\Debug\jtf_Project.Admin.csprojResolveAssemblyReference.cache
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\obj\Debug\jtf_Project.Admin.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Admin\obj\Debug\jtf_Project.Admin.pdb
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\obj\Debug\jtf_Project.Admin.csprojResolveAssemblyReference.cache
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\obj\Debug\jtf_Project.Admin.Migrations.kajshdjkasdh.resources
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\obj\Debug\jtf_Project.Admin.csproj.GenerateResource.Cache
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\obj\Debug\RdlCompile.cache
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\obj\Debug\RdlCompile.compiled
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\jtf_Project.Admin.dll.config
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\jtf_Project.Admin.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\jtf_Project.Admin.pdb
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Antlr3.Runtime.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\EntityFramework.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\EntityFramework.SqlServer.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\jtf_Project.Data.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\jtf_Project.WebHelper.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.Owin.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.Owin.Security.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Newtonsoft.Json.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Owin.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\System.Web.Helpers.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\System.Web.Mvc.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\System.Web.Optimization.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\System.Web.Razor.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\System.Web.WebPages.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\System.Web.WebPages.Razor.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\WebGrease.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\jtf_Project.Data.pdb
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\jtf_Project.WebHelper.pdb
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\System.Web.Helpers.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\System.Web.Mvc.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\System.Web.Optimization.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\System.Web.Razor.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\System.Web.WebPages.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\System.Web.WebPages.Razor.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Antlr3.Runtime.pdb
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Newtonsoft.Json.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\EntityFramework.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\EntityFramework.SqlServer.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.Owin.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.Owin.Security.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\obj\Debug\jtf_Project.Admin.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Admin\obj\Debug\jtf_Project.Admin.pdb
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\jtf_Project.Admin.dll.config
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\jtf_Project.Admin.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\jtf_Project.Admin.pdb
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Antlr3.Runtime.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\EntityFramework.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\EntityFramework.SqlServer.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\jtf_Project.Data.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\jtf_Project.WebHelper.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.Owin.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.Owin.Security.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Newtonsoft.Json.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Owin.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\System.Web.Helpers.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\System.Web.Mvc.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\System.Web.Optimization.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\System.Web.Razor.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\System.Web.WebPages.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\System.Web.WebPages.Razor.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\WebGrease.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\jtf_Project.Data.pdb
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\jtf_Project.WebHelper.pdb
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\System.Web.Helpers.xml
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\System.Web.Mvc.xml
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\System.Web.Optimization.xml
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\System.Web.Razor.xml
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\System.Web.WebPages.xml
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\System.Web.WebPages.Razor.xml
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Antlr3.Runtime.pdb
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Newtonsoft.Json.xml
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\EntityFramework.xml
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\EntityFramework.SqlServer.xml
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.Owin.xml
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.Owin.Security.xml
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\obj\Debug\jtf_Project.Admin.csprojResolveAssemblyReference.cache
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\obj\Debug\jtf_Project.Admin.Migrations.kajshdjkasdh.resources
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\obj\Debug\jtf_Project.Admin.csproj.GenerateResource.Cache
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\obj\Debug\RdlCompile.cache
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\obj\Debug\RdlCompile.compiled
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\obj\Debug\jtf_Project.Admin.dll
+C:\Users\jhomel\Desktop\Capstone\Lean Sample App\Lean Application\jtf_Project.Admin\obj\Debug\jtf_Project.Admin.pdb

@@ -1,0 +1,98 @@
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\jtf_Project.Data.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\jtf_Project.Data.pdb
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\EntityFramework.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\jtf_Project.WebHelper.1.0.0.0.Fakes.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\EntityFramework.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\jtf_Project.WebHelper.1.0.0.0.Fakes.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\obj\Debug\jtf_Project.Data.csprojResolveAssemblyReference.cache
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\obj\Debug\jtf_Project.Data.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\obj\Debug\jtf_Project.Data.pdb
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\jtf_Project.WebHelper.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.Owin.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.Facebook.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.Google.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.Twitter.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Owin.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\System.Web.Mvc.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\System.Web.WebPages.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\System.Web.Razor.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\jtf_Project.WebHelper.pdb
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.Owin.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.Facebook.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.Google.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.Twitter.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\System.Web.Mvc.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\System.Web.WebPages.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\System.Web.Razor.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.Data\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\jtf_Project.Data.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\jtf_Project.Data.pdb
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\EntityFramework.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\jtf_Project.WebHelper.1.0.0.0.Fakes.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\jtf_Project.WebHelper.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.Owin.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.Facebook.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.Google.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.Twitter.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Owin.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\System.Web.Mvc.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\System.Web.WebPages.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\System.Web.Razor.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\EntityFramework.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\jtf_Project.WebHelper.pdb
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\jtf_Project.WebHelper.1.0.0.0.Fakes.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.Owin.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.Facebook.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.Google.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Microsoft.Owin.Security.Twitter.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\System.Web.Mvc.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\System.Web.WebPages.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\System.Web.Razor.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\obj\Debug\jtf_Project.Data.csprojResolveAssemblyReference.cache
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\obj\Debug\jtf_Project.Data.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.Data\obj\Debug\jtf_Project.Data.pdb

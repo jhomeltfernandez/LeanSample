@@ -1,0 +1,41 @@
+﻿@model IEnumerable<jtf_Project.Data.Entities.Truck>
+
+@{
+
+}
+
+
+<table id="example1" class="table table-bordered table-striped dataTable">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Capcity</th>
+            <th>Driver</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr id="@item.Id">
+                <td>
+                    @item.Name
+                </td>
+                <td>
+                    @item.CapacityString
+                </td>
+                <td>
+                    @item.Driver.FullName
+                </td>
+                <td>
+                    <a href="@Url.Action("CreateEdit", "Truck", new { id=item.Id })" data-id="@item.Id" data-action="Edit" class="btn btn-primary btn-sm app-create-edit-btn">
+                        <i class="fa fa-pencil"></i>
+                    </a>
+                    <a href="@Url.Action("Delete", "Truck")" data-id="@item.Id" data-action="Delete" class="btn btn-danger btn-sm app-delete-btn">
+                        <i class="fa fa-trash"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

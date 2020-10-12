@@ -1,0 +1,56 @@
+﻿@model IEnumerable<jtf_Project.Admin.Models.ViewModels.DriverVModel>
+
+@{
+
+}
+
+
+<table id="example1" class="table table-bordered table-striped dataTable">
+    <thead>
+        <tr>
+            <th>Photo</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Contact#</th>
+            <th>Age</th>
+            <th>Date Hired</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            string profileAddress = !string.IsNullOrEmpty(item.Address) ? item.Address : string.Empty;
+
+
+            <tr id="@item.Id">
+                <td>
+                    <img src="@item.UserImage.ImageLocation" class="img-rounded col-md-12" style="max-width:100px;" />
+                </td>
+                <td>
+                    @item.FullName
+                </td>
+                <td>
+                    @string.Format("{0}...", profileAddress.Length > 18 ? profileAddress.Substring(0, 18) : profileAddress)
+                </td>
+                <td>
+                    @item.ContactNumber
+                </td>
+                <td>
+                    @item.GetAge()
+                </td>
+                <td>
+                    @item.DateHired.Value.ToString("MM-dd-yyyy")
+                </td>
+                <td>
+                    <a href="@Url.Action("CreateEdit", "Driver", new { id=item.Id })" data-id="@item.Id" data-action="Edit" class="btn btn-primary btn-sm app-create-edit-btn">
+                        <i class="fa fa-pencil"></i>
+                    </a>
+                    <a href="@Url.Action("Delete", "Driver")" data-id="@item.Id" data-action="Delete" class="btn btn-danger btn-sm app-delete-btn">
+                        <i class="fa fa-trash"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

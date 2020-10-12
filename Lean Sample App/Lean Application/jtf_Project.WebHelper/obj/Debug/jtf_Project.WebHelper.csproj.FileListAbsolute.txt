@@ -1,0 +1,10 @@
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.WebHelper\bin\Debug\jtf_Project.WebHelper.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.WebHelper\bin\Debug\jtf_Project.WebHelper.pdb
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.WebHelper\obj\Debug\jtf_Project.WebHelper.csprojResolveAssemblyReference.cache
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.WebHelper\obj\Debug\jtf_Project.WebHelper.dll
+C:\Users\jhomel\Documents\Visual Studio 2013\Projects\jtf_Project\jtf_Project.WebHelper\obj\Debug\jtf_Project.WebHelper.pdb
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.WebHelper\bin\Debug\jtf_Project.WebHelper.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.WebHelper\bin\Debug\jtf_Project.WebHelper.pdb
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.WebHelper\obj\Debug\jtf_Project.WebHelper.csprojResolveAssemblyReference.cache
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.WebHelper\obj\Debug\jtf_Project.WebHelper.dll
+C:\Users\jhomel\Desktop\Capstone\Risty_REFREES\Risty\jtf_Project.WebHelper\obj\Debug\jtf_Project.WebHelper.pdb

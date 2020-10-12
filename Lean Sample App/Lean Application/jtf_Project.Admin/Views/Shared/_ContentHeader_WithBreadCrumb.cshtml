@@ -1,0 +1,42 @@
+﻿@using System.ComponentModel
+
+@{
+    string currentControllerDisplayName, currentControllerActionDisplayName;
+    
+    MvcHtmlString HomeUrl = Html.ActionLink("Home","Index","Home");
+
+    currentControllerDisplayName = ViewContext.GetCurrentCollerDisplayName();
+    currentControllerActionDisplayName = ViewContext.GetCurrentActionDisplayName();
+
+
+    string currentController = ViewContext.GetCurrentControllerName();
+    string currentControllerAction = ViewContext.GetCurrentActionName();
+
+    string CurrrentControllerIndexURL = Url.Action("Index", currentController);
+    string CurrentControllerActionUrl = Url.Action(currentControllerAction, currentController);
+
+
+    string addToHeaderString = !currentControllerActionDisplayName.Equals("Index") ? currentControllerActionDisplayName : string.Empty;
+}
+
+
+
+<section class="content-header">
+    <h1>
+        @currentControllerDisplayName <small>@addToHeaderString</small>
+        @*<small>Control panel</small>*@
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        
+        @if (CurrrentControllerIndexURL.Equals(CurrentControllerActionUrl))
+        {
+            <li class="active">@currentControllerDisplayName</li>
+        }
+        else
+        {
+            <li><a href="@CurrrentControllerIndexURL" id="redirectTo">@currentControllerDisplayName</a></li>
+            <li class="active">@currentControllerActionDisplayName</li>
+        }
+    </ol>
+</section>

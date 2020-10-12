@@ -1,0 +1,1352 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>jtf_Project.WebHelper.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute">
+            <summary>Shim type of jtf_Project.WebHelper.DataAnnotations.TableColumnAttribute</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.#ctor(jtf_Project.WebHelper.DataAnnotations.TableColumnAttribute)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.Bind(System.Web.Mvc.IMetadataAware)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.Constructor">
+            <summary>Sets the shim of TableColumnAttribute.TableColumnAttribute()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.DisplayPropertyGet">
+            <summary>Sets the shim of TableColumnAttribute.get_DisplayProperty()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.DisplayPropertyKeyGet">
+            <summary>Sets the shim of TableColumnAttribute.get_DisplayPropertyKey()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.DisplayPropertySetString">
+            <summary>Sets the shim of TableColumnAttribute.set_DisplayProperty(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.ExcludeGet">
+            <summary>Sets the shim of TableColumnAttribute.get_Exclude()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.ExcludeKeyGet">
+            <summary>Sets the shim of TableColumnAttribute.get_ExcludeKey()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.ExcludeSetBoolean">
+            <summary>Sets the shim of TableColumnAttribute.set_Exclude(Boolean value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.IDPropertyGet">
+            <summary>Sets the shim of TableColumnAttribute.get_IDProperty()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.IDPropertyKeyGet">
+            <summary>Sets the shim of TableColumnAttribute.get_IDPropertyKey()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.IDPropertySetString">
+            <summary>Sets the shim of TableColumnAttribute.set_IDProperty(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.IncludeTotalGet">
+            <summary>Sets the shim of TableColumnAttribute.get_IncludeTotal()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.IncludeTotalKeyGet">
+            <summary>Sets the shim of TableColumnAttribute.get_IncludeTotalKey()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.IncludeTotalSetBoolean">
+            <summary>Sets the shim of TableColumnAttribute.set_IncludeTotal(Boolean value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.IsReadOnlyGet">
+            <summary>Sets the shim of TableColumnAttribute.get_IsReadOnly()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.IsReadOnlyKeyGet">
+            <summary>Sets the shim of TableColumnAttribute.get_IsReadOnlyKey()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.IsReadOnlySetBoolean">
+            <summary>Sets the shim of TableColumnAttribute.set_IsReadOnly(Boolean value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.NoRepeatGet">
+            <summary>Sets the shim of TableColumnAttribute.get_NoRepeat()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.NoRepeatKeyGet">
+            <summary>Sets the shim of TableColumnAttribute.get_NoRepeatKey()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.NoRepeatSetBoolean">
+            <summary>Sets the shim of TableColumnAttribute.set_NoRepeat(Boolean value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.OnMetadataCreatedModelMetadata">
+            <summary>Sets the shim of TableColumnAttribute.OnMetadataCreated(ModelMetadata metadata)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute._OnMetadataCreatedb__0ModelMetadata">
+            <summary>Sets the shim of TableColumnAttribute.&lt;OnMetadataCreated&gt;b__0(ModelMetadata m)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute._OnMetadataCreatedb__1ModelMetadata">
+            <summary>Sets the shim of TableColumnAttribute.&lt;OnMetadataCreated&gt;b__1(ModelMetadata m)</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.AllInstances.DisplayPropertyGet">
+            <summary>Sets the shim of TableColumnAttribute.get_DisplayProperty()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.AllInstances.DisplayPropertySetString">
+            <summary>Sets the shim of TableColumnAttribute.set_DisplayProperty(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.AllInstances.ExcludeGet">
+            <summary>Sets the shim of TableColumnAttribute.get_Exclude()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.AllInstances.ExcludeSetBoolean">
+            <summary>Sets the shim of TableColumnAttribute.set_Exclude(Boolean value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.AllInstances.IDPropertyGet">
+            <summary>Sets the shim of TableColumnAttribute.get_IDProperty()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.AllInstances.IDPropertySetString">
+            <summary>Sets the shim of TableColumnAttribute.set_IDProperty(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.AllInstances.IncludeTotalGet">
+            <summary>Sets the shim of TableColumnAttribute.get_IncludeTotal()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.AllInstances.IncludeTotalSetBoolean">
+            <summary>Sets the shim of TableColumnAttribute.set_IncludeTotal(Boolean value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.AllInstances.IsReadOnlyGet">
+            <summary>Sets the shim of TableColumnAttribute.get_IsReadOnly()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.AllInstances.IsReadOnlySetBoolean">
+            <summary>Sets the shim of TableColumnAttribute.set_IsReadOnly(Boolean value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.AllInstances.NoRepeatGet">
+            <summary>Sets the shim of TableColumnAttribute.get_NoRepeat()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.AllInstances.NoRepeatSetBoolean">
+            <summary>Sets the shim of TableColumnAttribute.set_NoRepeat(Boolean value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.AllInstances.OnMetadataCreatedModelMetadata">
+            <summary>Sets the shim of TableColumnAttribute.OnMetadataCreated(ModelMetadata metadata)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.AllInstances._OnMetadataCreatedb__0ModelMetadata">
+            <summary>Sets the shim of TableColumnAttribute.&lt;OnMetadataCreated&gt;b__0(ModelMetadata m)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableColumnAttribute.AllInstances._OnMetadataCreatedb__1ModelMetadata">
+            <summary>Sets the shim of TableColumnAttribute.&lt;OnMetadataCreated&gt;b__1(ModelMetadata m)</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute">
+            <summary>Shim type of jtf_Project.WebHelper.DataAnnotations.TableDisplayAttribute</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.#ctor(jtf_Project.WebHelper.DataAnnotations.TableDisplayAttribute)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.Bind(System.Web.Mvc.IMetadataAware)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.Constructor">
+            <summary>Sets the shim of TableDisplayAttribute.TableDisplayAttribute()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.ControllerGet">
+            <summary>Sets the shim of TableDisplayAttribute.get_Controller()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.ControllerSetString">
+            <summary>Sets the shim of TableDisplayAttribute.set_Controller(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.EditActionGet">
+            <summary>Sets the shim of TableDisplayAttribute.get_EditAction()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.EditActionSetString">
+            <summary>Sets the shim of TableDisplayAttribute.set_EditAction(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.IDPropertyGet">
+            <summary>Sets the shim of TableDisplayAttribute.get_IDProperty()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.IDPropertySetString">
+            <summary>Sets the shim of TableDisplayAttribute.set_IDProperty(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.IncludeEditLinkKeyGet">
+            <summary>Sets the shim of TableDisplayAttribute.get_IncludeEditLinkKey()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.IncludeRowNumbersGet">
+            <summary>Sets the shim of TableDisplayAttribute.get_IncludeRowNumbers()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.IncludeRowNumbersKeyGet">
+            <summary>Sets the shim of TableDisplayAttribute.get_IncludeRowNumbersKey()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.IncludeRowNumbersSetBoolean">
+            <summary>Sets the shim of TableDisplayAttribute.set_IncludeRowNumbers(Boolean value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.IncludeViewLinkKeyGet">
+            <summary>Sets the shim of TableDisplayAttribute.get_IncludeViewLinkKey()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.OnMetadataCreatedModelMetadata">
+            <summary>Sets the shim of TableDisplayAttribute.OnMetadataCreated(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.UrlEditKeyGet">
+            <summary>Sets the shim of TableDisplayAttribute.get_UrlEditKey()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.UrlViewKeyGet">
+            <summary>Sets the shim of TableDisplayAttribute.get_UrlViewKey()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.ViewActionGet">
+            <summary>Sets the shim of TableDisplayAttribute.get_ViewAction()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.ViewActionSetString">
+            <summary>Sets the shim of TableDisplayAttribute.set_ViewAction(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute._OnMetadataCreatedb__0ModelMetadata">
+            <summary>Sets the shim of TableDisplayAttribute.&lt;OnMetadataCreated&gt;b__0(ModelMetadata m)</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.AllInstances.ControllerGet">
+            <summary>Sets the shim of TableDisplayAttribute.get_Controller()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.AllInstances.ControllerSetString">
+            <summary>Sets the shim of TableDisplayAttribute.set_Controller(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.AllInstances.EditActionGet">
+            <summary>Sets the shim of TableDisplayAttribute.get_EditAction()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.AllInstances.EditActionSetString">
+            <summary>Sets the shim of TableDisplayAttribute.set_EditAction(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.AllInstances.IDPropertyGet">
+            <summary>Sets the shim of TableDisplayAttribute.get_IDProperty()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.AllInstances.IDPropertySetString">
+            <summary>Sets the shim of TableDisplayAttribute.set_IDProperty(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.AllInstances.IncludeRowNumbersGet">
+            <summary>Sets the shim of TableDisplayAttribute.get_IncludeRowNumbers()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.AllInstances.IncludeRowNumbersSetBoolean">
+            <summary>Sets the shim of TableDisplayAttribute.set_IncludeRowNumbers(Boolean value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.AllInstances.OnMetadataCreatedModelMetadata">
+            <summary>Sets the shim of TableDisplayAttribute.OnMetadataCreated(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.AllInstances.ViewActionGet">
+            <summary>Sets the shim of TableDisplayAttribute.get_ViewAction()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.AllInstances.ViewActionSetString">
+            <summary>Sets the shim of TableDisplayAttribute.set_ViewAction(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableDisplayAttribute.AllInstances._OnMetadataCreatedb__0ModelMetadata">
+            <summary>Sets the shim of TableDisplayAttribute.&lt;OnMetadataCreated&gt;b__0(ModelMetadata m)</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute">
+            <summary>Shim type of jtf_Project.WebHelper.DataAnnotations.TableEditAttribute</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.#ctor(jtf_Project.WebHelper.DataAnnotations.TableEditAttribute)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.Bind(System.Web.Mvc.IMetadataAware)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.AllowAdditionsGet">
+            <summary>Sets the shim of TableEditAttribute.get_AllowAdditions()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.AllowAdditionsKeyGet">
+            <summary>Sets the shim of TableEditAttribute.get_AllowAdditionsKey()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.AllowAdditionsSetBoolean">
+            <summary>Sets the shim of TableEditAttribute.set_AllowAdditions(Boolean value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.AllowDeletionsGet">
+            <summary>Sets the shim of TableEditAttribute.get_AllowDeletions()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.AllowDeletionsKeyGet">
+            <summary>Sets the shim of TableEditAttribute.get_AllowDeletionsKey()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.AllowDeletionsSetBoolean">
+            <summary>Sets the shim of TableEditAttribute.set_AllowDeletions(Boolean value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.Constructor">
+            <summary>Sets the shim of TableEditAttribute.TableEditAttribute()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.IsActivePropertyGet">
+            <summary>Sets the shim of TableEditAttribute.get_IsActiveProperty()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.IsActivePropertyKeyGet">
+            <summary>Sets the shim of TableEditAttribute.get_IsActivePropertyKey()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.IsActivePropertySetString">
+            <summary>Sets the shim of TableEditAttribute.set_IsActiveProperty(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.IsDirtyPropertyGet">
+            <summary>Sets the shim of TableEditAttribute.get_IsDirtyProperty()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.IsDirtyPropertyKeyGet">
+            <summary>Sets the shim of TableEditAttribute.get_IsDirtyPropertyKey()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.IsDirtyPropertySetString">
+            <summary>Sets the shim of TableEditAttribute.set_IsDirtyProperty(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.OnMetadataCreatedModelMetadata">
+            <summary>Sets the shim of TableEditAttribute.OnMetadataCreated(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute._OnMetadataCreatedb__0ModelMetadata">
+            <summary>Sets the shim of TableEditAttribute.&lt;OnMetadataCreated&gt;b__0(ModelMetadata m)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute._OnMetadataCreatedb__1ModelMetadata">
+            <summary>Sets the shim of TableEditAttribute.&lt;OnMetadataCreated&gt;b__1(ModelMetadata m)</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.AllInstances.AllowAdditionsGet">
+            <summary>Sets the shim of TableEditAttribute.get_AllowAdditions()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.AllInstances.AllowAdditionsSetBoolean">
+            <summary>Sets the shim of TableEditAttribute.set_AllowAdditions(Boolean value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.AllInstances.AllowDeletionsGet">
+            <summary>Sets the shim of TableEditAttribute.get_AllowDeletions()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.AllInstances.AllowDeletionsSetBoolean">
+            <summary>Sets the shim of TableEditAttribute.set_AllowDeletions(Boolean value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.AllInstances.IsActivePropertyGet">
+            <summary>Sets the shim of TableEditAttribute.get_IsActiveProperty()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.AllInstances.IsActivePropertySetString">
+            <summary>Sets the shim of TableEditAttribute.set_IsActiveProperty(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.AllInstances.IsDirtyPropertyGet">
+            <summary>Sets the shim of TableEditAttribute.get_IsDirtyProperty()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.AllInstances.IsDirtyPropertySetString">
+            <summary>Sets the shim of TableEditAttribute.set_IsDirtyProperty(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.AllInstances.OnMetadataCreatedModelMetadata">
+            <summary>Sets the shim of TableEditAttribute.OnMetadataCreated(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.AllInstances._OnMetadataCreatedb__0ModelMetadata">
+            <summary>Sets the shim of TableEditAttribute.&lt;OnMetadataCreated&gt;b__0(ModelMetadata m)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableEditAttribute.AllInstances._OnMetadataCreatedb__1ModelMetadata">
+            <summary>Sets the shim of TableEditAttribute.&lt;OnMetadataCreated&gt;b__1(ModelMetadata m)</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute">
+            <summary>Shim type of jtf_Project.WebHelper.DataAnnotations.TableLinkAttribute</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.#ctor(jtf_Project.WebHelper.DataAnnotations.TableLinkAttribute)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.Bind(System.Web.Mvc.IMetadataAware)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.ActionGet">
+            <summary>Sets the shim of TableLinkAttribute.get_Action()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.ActionSetString">
+            <summary>Sets the shim of TableLinkAttribute.set_Action(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.Constructor">
+            <summary>Sets the shim of TableLinkAttribute.TableLinkAttribute()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.ControllerGet">
+            <summary>Sets the shim of TableLinkAttribute.get_Controller()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.ControllerSetString">
+            <summary>Sets the shim of TableLinkAttribute.set_Controller(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.DisplayPropertyGet">
+            <summary>Sets the shim of TableLinkAttribute.get_DisplayProperty()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.DisplayPropertyKeyGet">
+            <summary>Sets the shim of TableLinkAttribute.get_DisplayPropertyKey()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.DisplayPropertySetString">
+            <summary>Sets the shim of TableLinkAttribute.set_DisplayProperty(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.IDPropertyGet">
+            <summary>Sets the shim of TableLinkAttribute.get_IDProperty()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.IDPropertyKeyGet">
+            <summary>Sets the shim of TableLinkAttribute.get_IDPropertyKey()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.IDPropertySetString">
+            <summary>Sets the shim of TableLinkAttribute.set_IDProperty(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.OnMetadataCreatedModelMetadata">
+            <summary>Sets the shim of TableLinkAttribute.OnMetadataCreated(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.TableLinkKeyGet">
+            <summary>Sets the shim of TableLinkAttribute.get_TableLinkKey()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.UrlKeyGet">
+            <summary>Sets the shim of TableLinkAttribute.get_UrlKey()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute._OnMetadataCreatedb__0ModelMetadata">
+            <summary>Sets the shim of TableLinkAttribute.&lt;OnMetadataCreated&gt;b__0(ModelMetadata m)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute._OnMetadataCreatedb__1ModelMetadata">
+            <summary>Sets the shim of TableLinkAttribute.&lt;OnMetadataCreated&gt;b__1(ModelMetadata m)</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.AllInstances.ActionGet">
+            <summary>Sets the shim of TableLinkAttribute.get_Action()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.AllInstances.ActionSetString">
+            <summary>Sets the shim of TableLinkAttribute.set_Action(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.AllInstances.ControllerGet">
+            <summary>Sets the shim of TableLinkAttribute.get_Controller()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.AllInstances.ControllerSetString">
+            <summary>Sets the shim of TableLinkAttribute.set_Controller(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.AllInstances.DisplayPropertyGet">
+            <summary>Sets the shim of TableLinkAttribute.get_DisplayProperty()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.AllInstances.DisplayPropertySetString">
+            <summary>Sets the shim of TableLinkAttribute.set_DisplayProperty(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.AllInstances.IDPropertyGet">
+            <summary>Sets the shim of TableLinkAttribute.get_IDProperty()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.AllInstances.IDPropertySetString">
+            <summary>Sets the shim of TableLinkAttribute.set_IDProperty(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.AllInstances.OnMetadataCreatedModelMetadata">
+            <summary>Sets the shim of TableLinkAttribute.OnMetadataCreated(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.AllInstances._OnMetadataCreatedb__0ModelMetadata">
+            <summary>Sets the shim of TableLinkAttribute.&lt;OnMetadataCreated&gt;b__0(ModelMetadata m)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableLinkAttribute.AllInstances._OnMetadataCreatedb__1ModelMetadata">
+            <summary>Sets the shim of TableLinkAttribute.&lt;OnMetadataCreated&gt;b__1(ModelMetadata m)</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute">
+            <summary>Shim type of jtf_Project.WebHelper.DataAnnotations.TableSelectAttribute</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute.#ctor(jtf_Project.WebHelper.DataAnnotations.TableSelectAttribute)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute.Bind(System.Web.Mvc.IMetadataAware)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute.Constructor">
+            <summary>Sets the shim of TableSelectAttribute.TableSelectAttribute()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute.DisplayPropertyGet">
+            <summary>Sets the shim of TableSelectAttribute.get_DisplayProperty()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute.DisplayPropertyKeyGet">
+            <summary>Sets the shim of TableSelectAttribute.get_DisplayPropertyKey()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute.DisplayPropertySetString">
+            <summary>Sets the shim of TableSelectAttribute.set_DisplayProperty(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute.IDPropertyGet">
+            <summary>Sets the shim of TableSelectAttribute.get_IDProperty()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute.IDPropertyKeyGet">
+            <summary>Sets the shim of TableSelectAttribute.get_IDPropertyKey()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute.IDPropertySetString">
+            <summary>Sets the shim of TableSelectAttribute.set_IDProperty(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute.OnMetadataCreatedModelMetadata">
+            <summary>Sets the shim of TableSelectAttribute.OnMetadataCreated(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute.TableSelectKeyGet">
+            <summary>Sets the shim of TableSelectAttribute.get_TableSelectKey()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute._OnMetadataCreatedb__0ModelMetadata">
+            <summary>Sets the shim of TableSelectAttribute.&lt;OnMetadataCreated&gt;b__0(ModelMetadata m)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute._OnMetadataCreatedb__1ModelMetadata">
+            <summary>Sets the shim of TableSelectAttribute.&lt;OnMetadataCreated&gt;b__1(ModelMetadata m)</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute.AllInstances.DisplayPropertyGet">
+            <summary>Sets the shim of TableSelectAttribute.get_DisplayProperty()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute.AllInstances.DisplayPropertySetString">
+            <summary>Sets the shim of TableSelectAttribute.set_DisplayProperty(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute.AllInstances.IDPropertyGet">
+            <summary>Sets the shim of TableSelectAttribute.get_IDProperty()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute.AllInstances.IDPropertySetString">
+            <summary>Sets the shim of TableSelectAttribute.set_IDProperty(String value)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute.AllInstances.OnMetadataCreatedModelMetadata">
+            <summary>Sets the shim of TableSelectAttribute.OnMetadataCreated(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute.AllInstances._OnMetadataCreatedb__0ModelMetadata">
+            <summary>Sets the shim of TableSelectAttribute.&lt;OnMetadataCreated&gt;b__0(ModelMetadata m)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.ShimTableSelectAttribute.AllInstances._OnMetadataCreatedb__1ModelMetadata">
+            <summary>Sets the shim of TableSelectAttribute.&lt;OnMetadataCreated&gt;b__1(ModelMetadata m)</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableColumnAttribute">
+            <summary>Stub type of jtf_Project.WebHelper.DataAnnotations.TableColumnAttribute</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableColumnAttribute.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableColumnAttribute.Equals(System.Object)">
+            <summary>Sets the stub of Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableColumnAttribute.EqualsObject">
+            <summary>Sets the stub of Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableColumnAttribute.GetHashCode">
+            <summary>Sets the stub of Attribute.GetHashCode()</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableColumnAttribute.GetHashCode01">
+            <summary>Sets the stub of Attribute.GetHashCode()</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableColumnAttribute.InitializeStub">
+            <summary>Initializes a new instance of type StubTableColumnAttribute</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableColumnAttribute.IsDefaultAttribute">
+            <summary>Sets the stub of Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableColumnAttribute.IsDefaultAttribute01">
+            <summary>Sets the stub of Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableColumnAttribute.Match(System.Object)">
+            <summary>Sets the stub of Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableColumnAttribute.MatchObject">
+            <summary>Sets the stub of Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableColumnAttribute.TypeIdGet">
+            <summary>Sets the stub of Attribute.get_TypeId()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableColumnAttribute.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableColumnAttribute.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableColumnAttribute.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableColumnAttribute.TypeId">
+            <summary>Sets the stub of Attribute.get_TypeId()</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableDisplayAttribute">
+            <summary>Stub type of jtf_Project.WebHelper.DataAnnotations.TableDisplayAttribute</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableDisplayAttribute.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableDisplayAttribute.Equals(System.Object)">
+            <summary>Sets the stub of Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableDisplayAttribute.EqualsObject">
+            <summary>Sets the stub of Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableDisplayAttribute.GetHashCode">
+            <summary>Sets the stub of Attribute.GetHashCode()</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableDisplayAttribute.GetHashCode01">
+            <summary>Sets the stub of Attribute.GetHashCode()</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableDisplayAttribute.InitializeStub">
+            <summary>Initializes a new instance of type StubTableDisplayAttribute</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableDisplayAttribute.IsDefaultAttribute">
+            <summary>Sets the stub of Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableDisplayAttribute.IsDefaultAttribute01">
+            <summary>Sets the stub of Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableDisplayAttribute.Match(System.Object)">
+            <summary>Sets the stub of Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableDisplayAttribute.MatchObject">
+            <summary>Sets the stub of Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableDisplayAttribute.TypeIdGet">
+            <summary>Sets the stub of Attribute.get_TypeId()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableDisplayAttribute.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableDisplayAttribute.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableDisplayAttribute.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableDisplayAttribute.TypeId">
+            <summary>Sets the stub of Attribute.get_TypeId()</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableEditAttribute">
+            <summary>Stub type of jtf_Project.WebHelper.DataAnnotations.TableEditAttribute</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableEditAttribute.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableEditAttribute.Equals(System.Object)">
+            <summary>Sets the stub of Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableEditAttribute.EqualsObject">
+            <summary>Sets the stub of Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableEditAttribute.GetHashCode">
+            <summary>Sets the stub of Attribute.GetHashCode()</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableEditAttribute.GetHashCode01">
+            <summary>Sets the stub of Attribute.GetHashCode()</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableEditAttribute.InitializeStub">
+            <summary>Initializes a new instance of type StubTableEditAttribute</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableEditAttribute.IsDefaultAttribute">
+            <summary>Sets the stub of Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableEditAttribute.IsDefaultAttribute01">
+            <summary>Sets the stub of Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableEditAttribute.Match(System.Object)">
+            <summary>Sets the stub of Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableEditAttribute.MatchObject">
+            <summary>Sets the stub of Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableEditAttribute.TypeIdGet">
+            <summary>Sets the stub of Attribute.get_TypeId()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableEditAttribute.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableEditAttribute.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableEditAttribute.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableEditAttribute.TypeId">
+            <summary>Sets the stub of Attribute.get_TypeId()</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableLinkAttribute">
+            <summary>Stub type of jtf_Project.WebHelper.DataAnnotations.TableLinkAttribute</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableLinkAttribute.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableLinkAttribute.Equals(System.Object)">
+            <summary>Sets the stub of Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableLinkAttribute.EqualsObject">
+            <summary>Sets the stub of Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableLinkAttribute.GetHashCode">
+            <summary>Sets the stub of Attribute.GetHashCode()</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableLinkAttribute.GetHashCode01">
+            <summary>Sets the stub of Attribute.GetHashCode()</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableLinkAttribute.InitializeStub">
+            <summary>Initializes a new instance of type StubTableLinkAttribute</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableLinkAttribute.IsDefaultAttribute">
+            <summary>Sets the stub of Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableLinkAttribute.IsDefaultAttribute01">
+            <summary>Sets the stub of Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableLinkAttribute.Match(System.Object)">
+            <summary>Sets the stub of Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableLinkAttribute.MatchObject">
+            <summary>Sets the stub of Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableLinkAttribute.TypeIdGet">
+            <summary>Sets the stub of Attribute.get_TypeId()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableLinkAttribute.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableLinkAttribute.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableLinkAttribute.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableLinkAttribute.TypeId">
+            <summary>Sets the stub of Attribute.get_TypeId()</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableSelectAttribute">
+            <summary>Stub type of jtf_Project.WebHelper.DataAnnotations.TableSelectAttribute</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableSelectAttribute.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableSelectAttribute.Equals(System.Object)">
+            <summary>Sets the stub of Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableSelectAttribute.EqualsObject">
+            <summary>Sets the stub of Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableSelectAttribute.GetHashCode">
+            <summary>Sets the stub of Attribute.GetHashCode()</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableSelectAttribute.GetHashCode01">
+            <summary>Sets the stub of Attribute.GetHashCode()</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableSelectAttribute.InitializeStub">
+            <summary>Initializes a new instance of type StubTableSelectAttribute</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableSelectAttribute.IsDefaultAttribute">
+            <summary>Sets the stub of Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableSelectAttribute.IsDefaultAttribute01">
+            <summary>Sets the stub of Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableSelectAttribute.Match(System.Object)">
+            <summary>Sets the stub of Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableSelectAttribute.MatchObject">
+            <summary>Sets the stub of Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableSelectAttribute.TypeIdGet">
+            <summary>Sets the stub of Attribute.get_TypeId()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableSelectAttribute.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableSelectAttribute.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableSelectAttribute.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.DataAnnotations.Fakes.StubTableSelectAttribute.TypeId">
+            <summary>Sets the stub of Attribute.get_TypeId()</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.Extensions.Fakes.ShimDateExtensions">
+            <summary>Shim type of jtf_Project.WebHelper.Extensions.DateExtensions</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Extensions.Fakes.ShimDateExtensions.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Extensions.Fakes.ShimDateExtensions.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Extensions.Fakes.ShimDateExtensions.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimDateExtensions.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimDateExtensions.FirstOfMonthDateTime">
+            <summary>Sets the shim of DateExtensions.FirstOfMonth(DateTime date)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimDateExtensions.FirstOfWeekDateTime">
+            <summary>Sets the shim of DateExtensions.FirstOfWeek(DateTime date)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimDateExtensions.FirstOfWorkingWeekDateTime">
+            <summary>Sets the shim of DateExtensions.FirstOfWorkingWeek(DateTime date)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimDateExtensions.IsWeekEndDateTime">
+            <summary>Sets the shim of DateExtensions.IsWeekEnd(DateTime date)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimDateExtensions.LastOfMonthDateTime">
+            <summary>Sets the shim of DateExtensions.LastOfMonth(DateTime date)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimDateExtensions.LastOfWeekDateTime">
+            <summary>Sets the shim of DateExtensions.LastOfWeek(DateTime date)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimDateExtensions.LastOfWorkingWeekDateTime">
+            <summary>Sets the shim of DateExtensions.LastOfWorkingWeek(DateTime date)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimDateExtensions.LastOfYearDateTime">
+            <summary>Sets the shim of DateExtensions.LastOfYear(DateTime date)</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.Extensions.Fakes.ShimEnumExtensions">
+            <summary>Shim type of jtf_Project.WebHelper.Extensions.EnumExtensions</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Extensions.Fakes.ShimEnumExtensions.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Extensions.Fakes.ShimEnumExtensions.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Extensions.Fakes.ShimEnumExtensions.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimEnumExtensions.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimEnumExtensions.ToDescriptionEnum">
+            <summary>Sets the shim of EnumExtensions.ToDescription(Enum value)</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.Extensions.Fakes.ShimLinqExtensions">
+            <summary>Shim type of jtf_Project.WebHelper.Extensions.LinqExtensions</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Extensions.Fakes.ShimLinqExtensions.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Extensions.Fakes.ShimLinqExtensions.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Extensions.Fakes.ShimLinqExtensions.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Extensions.Fakes.ShimLinqExtensions.CheckGroupingOf2IDictionaryOfM0M1``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Collections.Generic.IDictionary{``0,``1},System.Boolean})">
+            <summary>Sets the shim of LinqExtensions.CheckGrouping(IDictionary`2&lt;!!0,!!1&gt; collection)</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Extensions.Fakes.ShimLinqExtensions.CheckGroupingOf2IEnumerableOfIGroupingOfM0M1``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Collections.Generic.IEnumerable{System.Linq.IGrouping{``0,``1}},System.Boolean})">
+            <summary>Sets the shim of LinqExtensions.CheckGrouping(IEnumerable`1&lt;IGrouping`2&lt;!!0,!!1&gt;&gt; collection)</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Extensions.Fakes.ShimLinqExtensions.DistinctByOf2IEnumerableOfM0FuncOfM0M1``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEnumerable{``0}})">
+            <summary>Sets the shim of LinqExtensions.DistinctBy(IEnumerable`1&lt;!!0&gt; source, Func`2&lt;!!0,!!1&gt; keySelector)</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Extensions.Fakes.ShimLinqExtensions.FlattenOf1IEnumerableOfM0FuncOfM0IEnumerableOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Collections.Generic.IEnumerable{``0}},System.Collections.Generic.IEnumerable{``0}})">
+            <summary>Sets the shim of LinqExtensions.Flatten(IEnumerable`1&lt;!!0&gt; sequence, Func`2&lt;!!0,IEnumerable`1&lt;!!0&gt;&gt; childFetcher)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimLinqExtensions.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimLinqExtensions.CheckGroupingObject">
+            <summary>Sets the shim of LinqExtensions.CheckGrouping(Object collection)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimLinqExtensions.IsGroupedIEnumerable">
+            <summary>Sets the shim of LinqExtensions.IsGrouped(IEnumerable collection)</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions">
+            <summary>Shim type of jtf_Project.WebHelper.Extensions.ModelMetadataExtensions</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.ColumnHasDisplayPropertyModelMetadata">
+            <summary>Sets the shim of ModelMetadataExtensions.ColumnHasDisplayProperty(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.ColumnIncludeTotalsModelMetadata">
+            <summary>Sets the shim of ModelMetadataExtensions.ColumnIncludeTotals(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.ColumnIsExcludedModelMetadata">
+            <summary>Sets the shim of ModelMetadataExtensions.ColumnIsExcluded(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.ColumnIsLinkModelMetadata">
+            <summary>Sets the shim of ModelMetadataExtensions.ColumnIsLink(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.ColumnIsReadOnlyModelMetadata">
+            <summary>Sets the shim of ModelMetadataExtensions.ColumnIsReadOnly(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.ColumnIsSelectModelMetadata">
+            <summary>Sets the shim of ModelMetadataExtensions.ColumnIsSelect(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.ColumnNoRepeatModelMetadata">
+            <summary>Sets the shim of ModelMetadataExtensions.ColumnNoRepeat(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.DefaultValueModelMetadata">
+            <summary>Sets the shim of ModelMetadataExtensions.DefaultValue(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.IsBooleanModelMetadata">
+            <summary>Sets the shim of ModelMetadataExtensions.IsBoolean(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.IsCollectionModelMetadata">
+            <summary>Sets the shim of ModelMetadataExtensions.IsCollection(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.IsCurrencyModelMetadata">
+            <summary>Sets the shim of ModelMetadataExtensions.IsCurrency(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.IsDateModelMetadata">
+            <summary>Sets the shim of ModelMetadataExtensions.IsDate(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.IsHiddenModelMetadata">
+            <summary>Sets the shim of ModelMetadataExtensions.IsHidden(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.IsPercentModelMetadata">
+            <summary>Sets the shim of ModelMetadataExtensions.IsPercent(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.TableCanAddRowsModelMetadata">
+            <summary>Sets the shim of ModelMetadataExtensions.TableCanAddRows(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.TableCanDeleteRowsModelMetadata">
+            <summary>Sets the shim of ModelMetadataExtensions.TableCanDeleteRows(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.TableIncludeEditLinkModelMetadata">
+            <summary>Sets the shim of ModelMetadataExtensions.TableIncludeEditLink(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.TableIncludeRowNumbersModelMetadata">
+            <summary>Sets the shim of ModelMetadataExtensions.TableIncludeRowNumbers(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.TableIncludeViewLinkModelMetadata">
+            <summary>Sets the shim of ModelMetadataExtensions.TableIncludeViewLink(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.TableIsActivePropertyModelMetadata">
+            <summary>Sets the shim of ModelMetadataExtensions.TableIsActiveProperty(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.TableIsDirtyPropertyModelMetadata">
+            <summary>Sets the shim of ModelMetadataExtensions.TableIsDirtyProperty(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimModelMetadataExtensions.TableIsLinkModelMetadata">
+            <summary>Sets the shim of ModelMetadataExtensions.TableIsLink(ModelMetadata metaData)</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.Extensions.Fakes.ShimTypeExtensions">
+            <summary>Shim type of jtf_Project.WebHelper.Extensions.TypeExtensions</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Extensions.Fakes.ShimTypeExtensions.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Extensions.Fakes.ShimTypeExtensions.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Extensions.Fakes.ShimTypeExtensions.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimTypeExtensions.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Extensions.Fakes.ShimTypeExtensions.IsNumericType">
+            <summary>Sets the shim of TypeExtensions.IsNumeric(Type type)</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.Filters.Fakes.ShimAjaxOnlyAttribute">
+            <summary>Shim type of jtf_Project.WebHelper.Filters.AjaxOnlyAttribute</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Filters.Fakes.ShimAjaxOnlyAttribute.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Filters.Fakes.ShimAjaxOnlyAttribute.#ctor(jtf_Project.WebHelper.Filters.AjaxOnlyAttribute)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Filters.Fakes.ShimAjaxOnlyAttribute.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Filters.Fakes.ShimAjaxOnlyAttribute.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Filters.Fakes.ShimAjaxOnlyAttribute.Bind(System.Web.Mvc.IActionFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Filters.Fakes.ShimAjaxOnlyAttribute.Bind(System.Web.Mvc.IMvcFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Filters.Fakes.ShimAjaxOnlyAttribute.Bind(System.Web.Mvc.IResultFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Filters.Fakes.ShimAjaxOnlyAttribute.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Filters.Fakes.ShimAjaxOnlyAttribute.Constructor">
+            <summary>Sets the shim of AjaxOnlyAttribute.AjaxOnlyAttribute()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Filters.Fakes.ShimAjaxOnlyAttribute.OnActionExecutingActionExecutingContext">
+            <summary>Sets the shim of AjaxOnlyAttribute.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.Filters.Fakes.ShimAjaxOnlyAttribute.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Filters.Fakes.ShimAjaxOnlyAttribute.AllInstances.OnActionExecutingActionExecutingContext">
+            <summary>Sets the shim of AjaxOnlyAttribute.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute">
+            <summary>Stub type of jtf_Project.WebHelper.Filters.AjaxOnlyAttribute</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute.Equals(System.Object)">
+            <summary>Sets the stub of Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute.EqualsObject">
+            <summary>Sets the stub of Attribute.Equals(Object obj)</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute.GetHashCode">
+            <summary>Sets the stub of Attribute.GetHashCode()</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute.GetHashCode01">
+            <summary>Sets the stub of Attribute.GetHashCode()</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute.InitializeStub">
+            <summary>Initializes a new instance of type StubAjaxOnlyAttribute</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute.IsDefaultAttribute">
+            <summary>Sets the stub of Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute.IsDefaultAttribute01">
+            <summary>Sets the stub of Attribute.IsDefaultAttribute()</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute.Match(System.Object)">
+            <summary>Sets the stub of Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute.MatchObject">
+            <summary>Sets the stub of Attribute.Match(Object obj)</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)">
+            <summary>Sets the stub of ActionFilterAttribute.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute.OnActionExecutedActionExecutedContext">
+            <summary>Sets the stub of ActionFilterAttribute.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)">
+            <summary>Sets the stub of AjaxOnlyAttribute.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute.OnActionExecutingActionExecutingContext">
+            <summary>Sets the stub of AjaxOnlyAttribute.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)">
+            <summary>Sets the stub of ActionFilterAttribute.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute.OnResultExecutedResultExecutedContext">
+            <summary>Sets the stub of ActionFilterAttribute.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)">
+            <summary>Sets the stub of ActionFilterAttribute.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute.OnResultExecutingResultExecutingContext">
+            <summary>Sets the stub of ActionFilterAttribute.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute.TypeIdGet">
+            <summary>Sets the stub of Attribute.get_TypeId()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Filters.Fakes.StubAjaxOnlyAttribute.TypeId">
+            <summary>Sets the stub of Attribute.get_TypeId()</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.Html.Fakes.ShimButtonHelper">
+            <summary>Shim type of jtf_Project.WebHelper.Html.ButtonHelper</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimButtonHelper.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimButtonHelper.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimButtonHelper.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimButtonHelper.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimButtonHelper.DropButton">
+            <summary>Sets the shim of ButtonHelper.DropButton()</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.Html.Fakes.ShimDatePickerHelper">
+            <summary>Shim type of jtf_Project.WebHelper.Html.DatePickerHelper</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimDatePickerHelper.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimDatePickerHelper.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimDatePickerHelper.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimDatePickerHelper.DatePickerForOf2HtmlHelperOfM0ExpressionOfFuncOfM0M1NullableOfDateTimeNullableOfDateTime``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Web.Mvc.MvcHtmlString})">
+            <summary>Sets the shim of DatePickerHelper.DatePickerFor(HtmlHelper`1&lt;!!0&gt; helper, Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; expression, Nullable`1&lt;DateTime&gt; minDate, Nullable`1&lt;DateTime&gt; maxDate)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimDatePickerHelper.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimDatePickerHelper.CalendarDateTimeBooleanNullableOfDateTimeNullableOfDateTime">
+            <summary>Sets the shim of DatePickerHelper.Calendar(DateTime date, Boolean isSelected, Nullable`1&lt;DateTime&gt; minDate, Nullable`1&lt;DateTime&gt; maxDate)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimDatePickerHelper.CalendarHeaderDateTimeNullableOfDateTimeNullableOfDateTime">
+            <summary>Sets the shim of DatePickerHelper.CalendarHeader(DateTime date, Nullable`1&lt;DateTime&gt; minDate, Nullable`1&lt;DateTime&gt; maxDate)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimDatePickerHelper.DatePickerForHelperHtmlHelperModelMetadataStringNullableOfDateTimeNullableOfDateTime">
+            <summary>Sets the shim of DatePickerHelper.DatePickerForHelper(HtmlHelper helper, ModelMetadata metadata, String fieldName, Nullable`1&lt;DateTime&gt; minDate, Nullable`1&lt;DateTime&gt; maxDate)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimDatePickerHelper.DatePickerInputHtmlHelperModelMetadataString">
+            <summary>Sets the shim of DatePickerHelper.DatePickerInput(HtmlHelper helper, ModelMetadata metadata, String name)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimDatePickerHelper.DatePickerTextModelMetadata">
+            <summary>Sets the shim of DatePickerHelper.DatePickerText(ModelMetadata metadata)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimDatePickerHelper.DayDateTimeBooleanBoolean">
+            <summary>Sets the shim of DatePickerHelper.Day(DateTime date, Boolean isSelected, Boolean canSelect)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimDatePickerHelper.MonthDateTimeBooleanNullableOfDateTimeNullableOfDateTime">
+            <summary>Sets the shim of DatePickerHelper.Month(DateTime date, Boolean isSelected, Nullable`1&lt;DateTime&gt; minDate, Nullable`1&lt;DateTime&gt; maxDate)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimDatePickerHelper.MonthHeaderDateTimeNullableOfDateTimeNullableOfDateTime">
+            <summary>Sets the shim of DatePickerHelper.MonthHeader(DateTime date, Nullable`1&lt;DateTime&gt; minDate, Nullable`1&lt;DateTime&gt; maxDate)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimDatePickerHelper.NavigationButtonStringBoolean">
+            <summary>Sets the shim of DatePickerHelper.NavigationButton(String className, Boolean hide)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimDatePickerHelper.WeekHeader">
+            <summary>Sets the shim of DatePickerHelper.WeekHeader()</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.Html.Fakes.ShimHiddenInputHelper">
+            <summary>Shim type of jtf_Project.WebHelper.Html.HiddenInputHelper</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimHiddenInputHelper.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimHiddenInputHelper.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimHiddenInputHelper.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimHiddenInputHelper.HiddenInputForOf2HtmlHelperOfM0ExpressionOfFuncOfM0M1Boolean``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Boolean,System.Web.Mvc.MvcHtmlString})">
+            <summary>Sets the shim of HiddenInputHelper.HiddenInputFor(HtmlHelper`1&lt;!!0&gt; helper, Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; expression, Boolean includeID)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimHiddenInputHelper.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimHiddenInputHelper.HiddenInputForMetadataModelMetadataStringBooleanBoolean">
+            <summary>Sets the shim of HiddenInputHelper.HiddenInputForMetadata(ModelMetadata metaData, String name, Boolean includeID, Boolean includeDefault)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimHiddenInputHelper.HiddenInputModelMetadataStringBooleanBoolean">
+            <summary>Sets the shim of HiddenInputHelper.HiddenInput(ModelMetadata metaData, String name, Boolean includeID, Boolean includeDefault)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimHiddenInputHelper.HiddenInputStringObjectBoolean">
+            <summary>Sets the shim of HiddenInputHelper.HiddenInput(String name, Object value, Boolean includeID)</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.Html.Fakes.ShimNumericInputHelper">
+            <summary>Shim type of jtf_Project.WebHelper.Html.NumericInputHelper</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimNumericInputHelper.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimNumericInputHelper.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimNumericInputHelper.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimNumericInputHelper.NumericInputForOf2HtmlHelperOfM0ExpressionOfFuncOfM0M1``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Web.Mvc.MvcHtmlString})">
+            <summary>Sets the shim of NumericInputHelper.NumericInputFor(HtmlHelper`1&lt;!!0&gt; helper, Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; expression)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimNumericInputHelper.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimNumericInputHelper.NumericInputForMetadataModelMetadataStringIDictionaryOfStringObjectBoolean">
+            <summary>Sets the shim of NumericInputHelper.NumericInputForMetadata(ModelMetadata metaData, String fieldName, IDictionary`2&lt;String,Object&gt; attributes, Boolean includeID)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimNumericInputHelper.NumericInputModelMetadataStringIDictionaryOfStringObjectBoolean">
+            <summary>Sets the shim of NumericInputHelper.NumericInput(ModelMetadata metaData, String fieldName, IDictionary`2&lt;String,Object&gt; attributes, Boolean includeID)</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper">
+            <summary>Shim type of jtf_Project.WebHelper.Html.SelectHelper</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.SelectForOf2HtmlHelperOfM0ExpressionOfFuncOfM0M1``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Web.Mvc.MvcHtmlString})">
+            <summary>Sets the shim of SelectHelper.SelectFor(HtmlHelper`1&lt;!!0&gt; helper, Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; expression)</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.SelectForOf2HtmlHelperOfM0ExpressionOfFuncOfM0M1IEnumerable``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.IEnumerable,System.Web.Mvc.MvcHtmlString})">
+            <summary>Sets the shim of SelectHelper.SelectFor(HtmlHelper`1&lt;!!0&gt; helper, Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; expression, IEnumerable items)</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.SelectForOf2HtmlHelperOfM0ExpressionOfFuncOfM0M1IEnumerableStringString``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.IEnumerable,System.String,System.String,System.Web.Mvc.MvcHtmlString})">
+            <summary>Sets the shim of SelectHelper.SelectFor(HtmlHelper`1&lt;!!0&gt; helper, Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; expression, IEnumerable items, String idProperty, String displayProperty)</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.SelectForOf2HtmlHelperOfM0ExpressionOfFuncOfM0M1StringStringStringStringString``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.String,System.String,System.String,System.String,System.Web.Mvc.MvcHtmlString})">
+            <summary>Sets the shim of SelectHelper.SelectFor(HtmlHelper`1&lt;!!0&gt; helper, Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; expression, String idProperty, String displayProperty, String controller, String action, String urlParameter)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.DisplayTextModelMetadataString">
+            <summary>Sets the shim of SelectHelper.DisplayText(ModelMetadata metaData, String displayTextProperty)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.EmptyList">
+            <summary>Sets the shim of SelectHelper.EmptyList()</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.EnumListModelMetadata">
+            <summary>Sets the shim of SelectHelper.EnumList(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.FlatListIEnumerableModelMetadataStringString">
+            <summary>Sets the shim of SelectHelper.FlatList(IEnumerable items, ModelMetadata selectedItem, String idProperty, String displayProperty)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.GetDisplayTextModelMetadataString">
+            <summary>Sets the shim of SelectHelper.GetDisplayText(ModelMetadata item, String displayProperty)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.GroupListIDictionaryModelMetadataStringString">
+            <summary>Sets the shim of SelectHelper.GroupList(IDictionary items, ModelMetadata selectedItem, String idProperty, String displayProperty)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.HierarchialItemModelMetadataModelMetadataStringStringStringBooleanRef">
+            <summary>Sets the shim of SelectHelper.HierarchialItem(ModelMetadata item, ModelMetadata selectedItem, String idProperty, String displayProperty, String hierarchialProperty, Boolean&amp; selectionFound)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.HierarchialListIEnumerableModelMetadataStringString">
+            <summary>Sets the shim of SelectHelper.HierarchialList(IEnumerable items, ModelMetadata selectedItem, String idProperty, String displayProperty)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.IsSelectedModelMetadataModelMetadataString">
+            <summary>Sets the shim of SelectHelper.IsSelected(ModelMetadata item, ModelMetadata selectedItem, String idProperty)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.ListItemModelMetadataStringBoolean">
+            <summary>Sets the shim of SelectHelper.ListItem(ModelMetadata item, String displayProperty, Boolean isSelected)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.SearchBoxStringBoolean">
+            <summary>Sets the shim of SelectHelper.SearchBox(String fieldName, Boolean includeID)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.SelectForHelperHtmlHelperModelMetadataStringIEnumerableStringStringStringStringBoolean">
+            <summary>Sets the shim of SelectHelper.SelectForHelper(HtmlHelper helper, ModelMetadata metaData, String fieldName, IEnumerable items, String idProperty, String displayProperty, String url, String urlParameter, Boolean includeID)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.SelectForMetadataModelMetadataStringIEnumerableStringString">
+            <summary>Sets the shim of SelectHelper.SelectForMetadata(ModelMetadata metaData, String fieldName, IEnumerable items, String idProperty, String displayProperty)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.SelectInputHtmlHelperModelMetadataStringStringBoolean">
+            <summary>Sets the shim of SelectHelper.SelectInput(HtmlHelper helper, ModelMetadata metaData, String fieldName, String displayTextProperty, Boolean includeID)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.SelectListString">
+            <summary>Sets the shim of SelectHelper.SelectList(String innerHtml)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.ValidationHtmlHelperModelMetadataString">
+            <summary>Sets the shim of SelectHelper.Validation(HtmlHelper helper, ModelMetadata metaData, String fieldName)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimSelectHelper.ValueListIEnumerableModelMetadata">
+            <summary>Sets the shim of SelectHelper.ValueList(IEnumerable items, ModelMetadata selectedItem)</summary>
+        </member>
+        <member name="T:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper">
+            <summary>Shim type of jtf_Project.WebHelper.Html.TableHelper</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper.TableDisplayForOf2HtmlHelperOfM0ExpressionOfFuncOfM0M1StringString``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String,System.String,System.Web.Mvc.MvcHtmlString})">
+            <summary>Sets the shim of TableHelper.TableDisplayFor(HtmlHelper`1&lt;!!0&gt; helper, Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; expression, String excludeProperties, String tblClass)</summary>
+        </member>
+        <member name="M:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper.TableEditorForOf2HtmlHelperOfM0ExpressionOfFuncOfM0M1``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Web.Mvc.MvcHtmlString})">
+            <summary>Sets the shim of TableHelper.TableEditorFor(HtmlHelper`1&lt;!!0&gt; helper, Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; expression)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper.GetCollectionTypeIEnumerable">
+            <summary>Sets the shim of TableHelper.GetCollectionType(IEnumerable collection)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper.GetDefaultValueModelMetadata">
+            <summary>Sets the shim of TableHelper.GetDefaultValue(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper.GetFormattedValueModelMetadata">
+            <summary>Sets the shim of TableHelper.GetFormattedValue(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper.GetReadonlyDisplayTextModelMetadataBoolean">
+            <summary>Sets the shim of TableHelper.GetReadonlyDisplayText(ModelMetadata metaData, Boolean hasDisplayProperty)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper.TableCellAddButtonBoolean">
+            <summary>Sets the shim of TableHelper.TableCellAddButton(Boolean hasButton)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper.TableCellCheckBoxModelMetadataString">
+            <summary>Sets the shim of TableHelper.TableCellCheckBox(ModelMetadata metaData, String fieldName)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper.TableCellDeleteButtonBooleanStringBuilder">
+            <summary>Sets the shim of TableHelper.TableCellDeleteButton(Boolean hasButton, StringBuilder innerHtml)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper.TableCellEditLinkModelMetadata">
+            <summary>Sets the shim of TableHelper.TableCellEditLink(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper.TableCellIndexerStringNullableOfInt32">
+            <summary>Sets the shim of TableHelper.TableCellIndexer(String fieldName, Nullable`1&lt;Int32&gt; index)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper.TableCellReadOnlyModelMetadataStringString">
+            <summary>Sets the shim of TableHelper.TableCellReadOnly(ModelMetadata metaData, String text, String fieldName)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper.TableCellSelectModelMetadataStringIEnumerable">
+            <summary>Sets the shim of TableHelper.TableCellSelect(ModelMetadata metaData, String fieldName, IEnumerable items)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper.TableCellTextInputModelMetadataStringIDictionaryOfStringObject">
+            <summary>Sets the shim of TableHelper.TableCellTextInput(ModelMetadata metaData, String fieldName, IDictionary`2&lt;String,Object&gt; attributes)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper.TableCellTextString">
+            <summary>Sets the shim of TableHelper.TableCellText(String text)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper.TableCellViewLinkModelMetadata">
+            <summary>Sets the shim of TableHelper.TableCellViewLink(ModelMetadata metaData)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper.TableHeaderCellString">
+            <summary>Sets the shim of TableHelper.TableHeaderCell(String text)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper._GetCollectionTypeb__1dType">
+            <summary>Sets the shim of TableHelper.&lt;GetCollectionType&gt;b__1d(Type t)</summary>
+        </member>
+        <member name="P:jtf_Project.WebHelper.Html.Fakes.ShimTableHelper._GetCollectionTypeb__1eType">
+            <summary>Sets the shim of TableHelper.&lt;GetCollectionType&gt;b__1e(Type t)</summary>
+        </member>
+    </members>
+</doc>

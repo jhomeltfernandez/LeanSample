@@ -1,0 +1,47 @@
+﻿@model jtf_Project.Data.Entities.Truck
+
+
+<div class="row">
+    <div class="col-md-12">
+        @using (Html.BeginForm("CreateEdit", "Truck", FormMethod.Post, new { @class = "form-horizontal" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.HiddenFor(m => m.Id)
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div id="responseDiv"></div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Name, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Capacity, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    <div class="input-group">
+                        @Html.TextBoxFor(m => m.Capacity,"{0:0.#}", new { @class = "form-control" })
+                        <span class="input-group-addon">ton/s</span>
+                    </div>
+                    @Html.ValidationMessageFor(m => m.Capacity, "", new { @class = "text-danger" })
+                </div>
+
+                
+            </div>
+            <div class="form-group">
+                <label for="DriverId" class="col-md-2 control-label">Driver</label>
+                <div class="col-md-10">
+                    @Html.DropDownListFor(m => m.DriverId, Model.DriverSelect, string.Empty, new { @class = "form-control chosen-select" })
+                    @Html.ValidationMessageFor(m => m.DriverId, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="PlateNumber" class="col-md-2 control-label">Plate#</label>
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.PlateNumber, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.PlateNumber, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        }
+    </div>
+</div>

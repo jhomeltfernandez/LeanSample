@@ -1,0 +1,124 @@
+﻿
+/* Search box */
+/* Note: HtmlHelper renders color:transparent; */
+.select-input input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    border-radius: 2px;
+    padding: 3px;
+    background: #fff;
+    font: inherit;
+    margin: 0;
+}
+
+    .select-input input[type=text]:focus {
+        outline-color: #52a8ec;
+    }
+
+/* Display text */
+/* Note: HtmlHelper renders position:absolute;overflow:initial;text-overflow:initial; */
+.select-input div {
+    top: 4px;
+    left: 4px;
+    background-color: transparent;
+    overflow:initial;
+    box-sizing:border-box;
+    white-space: nowrap;
+    width:100%;
+    /* Take into account left positioning and button width */
+    padding-right:30px;
+}
+
+    .select-input span em {
+        color: red;
+        font-style: normal;
+    }
+
+    .select-input span:not(:last-child) {
+        color:#808080;
+
+    }
+
+/* Drop-down button */
+/* Note: HtmlHelper renders position:absolute; */
+.select-input .drop-button {
+    top: 1px;
+    right: 1px;
+    margin: 1px;
+    background-color: transparent;
+    border: none;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    outline: none;
+}
+
+    .select-input .drop-button:after {
+        content: '';
+        position: absolute;
+        top: 9px;
+        left: 9px;
+        border-left: 3px solid transparent;
+        border-right: 3px solid transparent;
+        border-top: 6px solid #222;
+    }
+
+/* Drop-down container */
+/* Note: HtmlHelper renders position:absolute; display:none; */
+/* Note: Plugin renders max-height:##; and top:##; or bottom:##; */
+.select-list ul:first-child {
+    width: 100%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    border-radius: 2px;
+    padding: 3px;
+    background-color:#fff;
+    overflow-y: auto;
+}
+
+/* Select items */
+
+.select-list ul {
+    margin:0;
+    padding:0;
+}
+
+/* Note: HtmlHelper renders margin:0; padding:0; */
+.select-list li {
+}
+
+.select-list li > ul {
+    margin-left:10px;
+}
+
+.select-list div {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+    .select-list div:not(.selected):not(.group):not(.disabled):hover {
+        background-color: lightblue;
+    }
+
+.select-list .selected {
+    background-color: blue;
+    color: white;
+}
+.select-list .group {
+    color:#808080;
+    cursor:default;
+}
+
+.select-list .disabled {
+    color:#808080;
+    text-decoration:line-through;
+    cursor:default;
+
+}

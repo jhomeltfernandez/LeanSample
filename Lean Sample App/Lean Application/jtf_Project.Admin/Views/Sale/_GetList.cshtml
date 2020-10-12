@@ -1,0 +1,92 @@
+﻿@model IEnumerable<jtf_Project.Data.Entities.Sale>
+
+@{
+
+}
+
+<table id="example1" class="table table-bordered table-striped dataTable">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Truck</th>
+            <th>Destination</th>
+            <th class="text-right">Gross</th>
+            <th class="text-right">Less</th>
+            <th class="text-right">Fuel Cost</th>
+            <th class="text-right">Other Expense</th>
+            <th class="text-right">Net</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            string netColor = item.Net < 0 ? "red" : "#333";
+            
+            
+            <tr id="@item.Id">
+                <td>
+                    @item.Date.Value.ToString("MMM-dd-yy")
+                </td>
+                <td>
+                    @item.Rate.Truck.Name
+                </td>
+                <td>
+                    @item.Rate.Destination.Name
+                </td>
+                <td class="text-right">
+                    @string.Format("{0:n}", item.Gross)
+                </td>
+                <td class="text-right">
+                    @string.Format("{0:n}", item.Less)
+                </td>
+                <td class="text-right">
+                    @string.Format("{0:n}", item.FuelCost)
+                </td>
+                <td class="text-right">
+
+                    @if (item.OtherExpences.Count() > 0)
+                    {
+                        <div>
+                            @foreach (var oExpense in item.OtherExpences)
+                            {
+                                <span style="display:block;">
+                                    <a href="@Url.Action("CreateEditOtherExpense", "Sale", new { id = oExpense.Id, saleId = item.Id })" data-id="@oExpense.Id" data-action="Edit Expense" class="app-modal-create-edit-btn pull-left">
+                                        <i class="fa fa-edit"></i>
+                                    </a>
+                                    <a href="@Url.Action("DeleteOtherExpense", "Sale", new { id = oExpense.Id })" data-id="@oExpense.Id" data-action="Delete Expense" class="app-delete-btn text-danger pull-left" style="margin-left:3px;">
+                                        <i class="fa fa-times"></i>
+                                    </a>
+                                    @oExpense.NameFormatedString
+                                </span>
+                            }
+                            <span style="display:block;border-top:1px solid #444;">
+                                <strong class="pull-left">Total:</strong>
+                                <strong>@string.Format("{0:n}", item.OtherExpences.Sum(s => s.Amount))</strong>
+                            </span>
+                        </div>
+                    }
+                    else
+                    { 
+                        <i>None</i>
+                    }
+
+                </td>
+                <td class="text-right">
+                    <strong style="color: @netColor ;">@string.Format("{0:n}", item.Net)</strong>
+                </td>
+                <td>
+                    <a href="@Url.Action("CreateEdit", "Sale", new { id=item.Id })" data-id="@item.Id" data-action="Edit" class="btn btn-primary btn-sm app-create-edit-btn">
+                        <i class="fa fa-pencil"></i>
+                    </a>
+                    <a href="@Url.Action("CreateEditOtherExpense", "Sale", new { id = 0, saleId = item.Id })" data-id="0" data-action="Add Other Expenses" class="btn btn-primary btn-sm app-modal-create-edit-btn">
+                        <i class="fa fa-plus-square-o"></i>
+                    </a>
+                    <a href="@Url.Action("Delete", "Sale")" data-id="@item.Id" data-action="Delete Sale" class="btn btn-danger btn-sm app-delete-btn">
+                        <i class="fa fa-trash"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

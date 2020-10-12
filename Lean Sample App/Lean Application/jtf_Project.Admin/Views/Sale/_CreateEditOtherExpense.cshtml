@@ -1,0 +1,35 @@
+﻿@model jtf_Project.Data.Entities.OtherExpence
+
+
+<div class="row">
+    <div class="col-md-12">
+        @using (Html.BeginForm("CreateEditOtherExpense", "Sale", FormMethod.Post, new { @class = "form-horizontal" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.HiddenFor(m => m.Id)
+            @Html.HiddenFor(m => m.SaleId)
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div id="responseDiv"></div>
+            <div class="form-group">
+                <label for="Name" class="col-md-2 control-label">Name</label>
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="FuelCost" class="col-md-2 control-label">Amount</label>
+                <div class="col-md-10">
+                    <div class="input-group">
+                        @Html.TextBoxFor(m => m.Amount, new { @class = "form-control" })
+                        <span class="input-group-addon">
+                            <i class="fa fa-dollar"></i>
+                        </span>
+                    </div>
+
+                    @Html.ValidationMessageFor(m => m.Amount, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        }
+    </div>
+</div>

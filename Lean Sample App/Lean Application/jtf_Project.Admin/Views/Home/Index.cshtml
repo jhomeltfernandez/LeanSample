@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<section class="content-header">
+    <div class="row">
+    </div>
+</section>
+
+@section styles{
+<link href="~/Content/plugins/datatables/dataTables.bootstrap.css" rel="stylesheet" />
+    }
+
+@section scripts{
+<script src="~/Content/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="~/Content/plugins/datatables/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("table#example1").dataTable({
+                "columnDefs": [{
+                    "targets": 5,
+                    "searchable": false,
+                    "orderable":false
+                }]
+            });
+
+            
+        });
+    </script>
+}

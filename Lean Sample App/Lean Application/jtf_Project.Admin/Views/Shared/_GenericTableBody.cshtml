@@ -1,0 +1,34 @@
+﻿@model IEnumerable<jtf_Project.Data.HelperModel.GenericTableRowVmodel>
+
+@{
+    //The counter is for table number
+    int counter = 1;
+}
+
+<tbody>
+    @foreach (var row in Model)
+    {
+        counter++;
+        
+        <tr id="@row.Id">
+            @foreach (var cell in row.Cells)
+            { 
+                <td>
+                    @Html.Raw(cell.Value)
+                </td>
+            }
+
+            @if (row.Setting.IncludeActionColumn)
+            {
+                <td>
+                    <a href="@string.Format("{0}/?id={1}", row.Setting.CreateEditButtonURL, row.Id)" data-id="@row.Id" data-action="Edit" class="btn btn-primary btn-sm app-create-edit-btn">
+                        <i class="fa fa-pencil"></i>
+                    </a> 
+                    <a href="@row.Setting.DeleteButtonURL" data-id="@row.Id" data-action="Delete" class="btn btn-danger btn-sm app-delete-btn">
+                        <i class="fa fa-trash"></i>
+                    </a>
+                </td>
+            }
+        </tr>
+    }
+</tbody>

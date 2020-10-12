@@ -1,0 +1,113 @@
+﻿
+@{
+    Layout = null;
+    ViewBag.Title = "Test";
+}
+
+<html>
+<head>
+    <title>Test</title>
+</head>
+<body>
+    <div>
+        <lable for="first">First Prelim Grade</lable>
+        <br />
+        <input type="text" id="first" name="first" />
+        <br />
+        <lable for="second">Second Prelim Grade</lable>
+        <br />
+        <input type="text" id="second" name="second" />
+        <br />
+        <lable for="third">Final Term Grade</lable>
+        <br />
+        <input type="text" id="third" name="third" />
+        <br />
+    </div>
+    <br />
+    <div>
+        <input type="button" value="Compute" id="compute" />
+        <input type="button" value="Clear" id="clear" />
+    </div>
+    <br />
+    <div>
+        <lable for="semGrade">Semestral Grade</lable>
+        <br />
+        <input type="text" id="semGrade" name="semGrade" disabled />
+        <br />
+        <lable for="equivalent">Equivalent</lable>
+        <br />
+        <input type="text" id="equivalent" name="equivalent" disabled />
+    </div>
+
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#compute').click(function () {
+
+                Grade.Compute(
+                    $('#first').val(),
+                    $('#second').val(),
+                    $('#third').val()
+                    );
+            });
+
+            $('#clear').click(function () {
+                Grade.Clear();
+            });
+
+        });
+
+        var Grade = {
+            Compute: function (first, second, third) {
+                first = first || 0, second = second || 0, third = third || 0;
+
+                console.log(first);
+                console.log(second);
+                console.log(third);
+                var average = parseFloat((parseFloat(first) + parseFloat(second) + parseFloat(third)) / 3).toFixed(2);
+
+                console.log(parseFloat(first), parseFloat(second), parseFloat(third))
+
+                $('#semGrade').val(average);
+                Grade.DisplayEquiv(average);
+
+            },
+            DisplayEquiv:function(average){
+                average = average||0;
+                
+                var $inputEquivalent = $('#equivalent');
+
+
+                if (average >= 1 && average <= 100) {
+                    
+
+                    if (average >= 95) {
+                        $inputEquivalent.val("Excellent");
+                    } else if (average >= 90 && average <= 94) {
+                        $inputEquivalent.val("Very Good");
+                    } else if (average >= 85 && average <= 89) {
+                        $inputEquivalent.val("Good");
+                    } else if (average >= 80 && average <= 84) {
+                        $inputEquivalent.val("Average");
+                    } else if (average >= 75 && average <= 79) {
+                        $inputEquivalent.val("Below Average");
+                    } else if (average < 75) {
+                        $inputEquivalent.val("Poor");
+                    }
+                } else {
+
+                    alert('Grade is out of range.');
+                }
+            },
+            Clear: function () {
+                $('#first').val('');
+                $('#second').val('');
+                $('#third').val('');
+            }
+        }
+        
+    </script>
+
+</body>
+</html>

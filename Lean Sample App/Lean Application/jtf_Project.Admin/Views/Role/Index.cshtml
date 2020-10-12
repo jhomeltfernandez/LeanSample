@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "Role";
+
+    bool enableRoleModification = bool.Parse(System.Configuration.ConfigurationManager.AppSettings["EnableRoleModification"]);
+}
+
+<section class="content-header">
+    <div class="row">
+        <div class="col-xs-12 table">
+            <div class="box">
+                <div class="box-header">
+                    @if (enableRoleModification)
+                    {
+                        <a href="@Url.Action("CreateEdit", "Role", new { id = "" })" data-action="Add new" class="btn btn-primary app-modal-create-edit-btn">[+] Add New</a>
+                    }
+                    else
+                    {
+                        <a href="#" data-action="Add new" class="btn btn-primary" disabled>[+] Add New</a>
+                        <span class="col-sm-6 text-right pull-right text-red">
+                            <i class="fa fa-warning"></i> Role Modification is disabled.
+                        </span>
+                    }
+                </div>
+                <div class="box-body content-div" style="min-height:20px;">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+@section styles{
+    <link href="~/Content/plugins/datatables/dataTables.bootstrap.css" rel="stylesheet" />
+}
+
+@section scripts{
+    <script src="~/Content/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/Content/plugins/datatables/dataTables.bootstrap.min.js"></script>
+    <script src="~/Scripts/App/role-index.js"></script>
+}

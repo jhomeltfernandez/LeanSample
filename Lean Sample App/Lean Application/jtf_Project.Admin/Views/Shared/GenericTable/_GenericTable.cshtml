@@ -1,0 +1,13 @@
+﻿@model jtf_Project.Admin.Models.GenericTableVModels.GenericTableVModel
+
+@{
+    var a = Model;
+    var b = Model.Rows;
+}
+
+<table id="example1" class="@Model.Setting.Class">
+    <!--Header-->
+    @Html.Partial("/Views/GenericTable/_Header", Model.Body.Rows.FirstOrDefault())
+    <!--Body-->
+    @Html.Partial("/Views/GenericTable/_Body", Model.Rows)
+</table>

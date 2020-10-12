@@ -1,0 +1,67 @@
+﻿@{
+
+}
+
+<section class="content-header">
+    <div class="row">
+        <div class="col-xs-12 table">
+            <div class="box">
+                <div class="box-header">
+                    Select Truck and Date
+                </div>
+                <div class="box-body content-div" style="min-height:20px;">
+                    @using (Html.BeginForm("DateRange", "Report", FormMethod.Post, new { @class = "" }))
+                    {
+                        @Html.ValidationSummary(false)
+
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="col-md-2 control-label" for="truckid">Truck:</label>
+                                @Html.DropDownList("truckid", (SelectList)ViewBag.Trucks, string.Empty, new { @class = "form-control chosen-select" })
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="col-md-2 control-label" for="dateStart">From:</label>
+                                @Html.TextBox("start", DateTime.Now.ToString("MM/dd/yyyy"), new { @class = "form-control datepicker" })
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="col-md-2 control-label" for="dateStart">To:</label>
+                                @Html.TextBox("end", DateTime.Now.ToString("MM/dd/yyyy"), new { @class = "form-control datepicker" })
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-info" style="margin-top:25px;"><i class="fa fa-print"></i> GENERATE</button>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+@section styles{
+    <link href="~/Content/plugins/datatables/dataTables.bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/plugins/chosen-bootstrap/bootstrap-chosen.css" rel="stylesheet" />
+}
+
+@section scripts{
+    <script src="~/Content/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="~/Content/plugins/datatables/dataTables.bootstrap.min.js"></script>
+    <script src="~/Content/plugins/chosen-bootstrap/chosen.jquery.min.js"></script>
+    <script src="~/Content/plugins/datepicker/bootstrap-datepicker.js"></script>
+
+    <script>
+
+        $('.chosen-select').chosen();
+
+        $('input#start').datepicker();
+        $('input#end').datepicker();
+    </script>
+
+}

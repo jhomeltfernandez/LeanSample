@@ -1,0 +1,53 @@
+﻿@model IEnumerable<jtf_Project.Data.Entities.Rate>
+
+@{
+
+}
+
+
+<table id="example1" class="table table-bordered table-striped dataTable">
+    <thead>
+        <tr>
+            <th>Destination</th>
+            <th>Truck</th>
+            <th>Amount</th>
+            <th>Driver Cost</th>
+            <th>Helper Cost</th>
+            <th>Water Cost</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr id="@item.Id">
+                <td>
+                    @item.Destination.Name
+                </td>
+                <td>
+                    @item.Truck.NameWithDriverName
+                </td>
+                <td>
+                    @string.Format("{0:n}", item.Amount)
+                </td>
+                <td>
+                    @string.Format("{0:n}", item.DriverCost)
+                </td>
+                <td>
+                    @string.Format("{0:n}", item.HelperCost)
+                </td>
+                <td>
+                    @string.Format("{0:n}", item.WaterCost)
+                </td>
+                <td>
+                    <a href="@Url.Action("CreateEdit", "Rate", new { id=item.Id })" data-id="@item.Id" data-action="Edit" class="btn btn-primary btn-sm app-create-edit-btn">
+                        <i class="fa fa-pencil"></i>
+                    </a>
+                    <a href="@Url.Action("Delete", "Rate")" data-id="@item.Id" data-action="Delete" class="btn btn-danger btn-sm app-delete-btn">
+                        <i class="fa fa-trash"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

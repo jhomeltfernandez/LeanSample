@@ -1,0 +1,53 @@
+﻿@model IEnumerable<jtf_Project.Admin.Models.ViewModels.UserVModel>
+<table id="example1" class="table table-bordered table-striped dataTable">
+	<thead>
+		<tr>
+			<th>Name</th>
+            <th>Address</th>
+            <th>Contact#</th>
+            <th>Role</th>
+            <th>Status</th>
+			<th>Actions</th>
+		</tr>
+	</thead>
+      <tbody>
+		@foreach (var item in Model)
+		{
+            string profileAddress = !string.IsNullOrEmpty(item.Profile.Address) ? item.Profile.Address : string.Empty;
+            
+            
+				<tr id="@item.Id">
+					<td>
+                        @item.Profile.FullName (<code><i class="fa fa-user"></i> @item.UserName</code>)
+                    </td>
+                    <td>
+                        @string.Format("{0}...", profileAddress.Length > 18 ? profileAddress.Substring(0, 18) : profileAddress)
+                    </td>
+                    <td>
+                        @item.ContactNumber
+                    </td>
+                    <td>
+                        @Html.Action("GetRolesForUser", "Role", new { userId = item.Id })
+                    </td>
+                    <td>
+                        @if (item.Status && item.Status == true)
+                        {
+                            <span class="label label-success">Active</span>
+                        }
+                        else
+                        {
+                            <span class="label label-danger">Inactive</span>
+                        }
+                    </td>
+					<td>
+						<a href="@Url.Action("CreateEdit", "User", new { id=item.Id })" data-id="@item.Id" data-action="Edit" class="btn btn-primary btn-sm app-create-edit-btn">
+								<i class="fa fa-pencil"></i>
+						</a> 
+						<a href="@Url.Action("Delete", "User")" data-id="@item.Id" data-action="Delete" class="btn btn-danger btn-sm app-delete-btn">
+								<i class="fa fa-trash"></i>
+						</a>
+					</td>
+				</tr>
+				}
+       </tbody>
+  </table>

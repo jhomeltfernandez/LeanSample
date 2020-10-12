@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Microsoft.AspNet.Identity.EntityFramework.IdentityRole>
+
+@{
+    bool enableRoleModification = bool.Parse(System.Configuration.ConfigurationManager.AppSettings["EnableRoleModification"]);
+}
+
+<table id="example1" class="table table-hover dataTable">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr id="@item.Id">
+                <td>
+                    @item.Name
+                </td>
+                <td>
+                    @if (enableRoleModification)
+                    {
+                        <a href="@Url.Action("CreateEdit", "Role", new { id=item.Name })" data-id="@item.Name" data-action="Edit Role" class="btn btn-primary btn-sm app-create-edit-btn">
+                            <i class="fa fa-pencil"></i>
+                        </a>
+                        <a href="@Url.Action("Delete", "Role")" data-id="@item.Name" data-action="Delete Role" class="btn btn-danger btn-sm app-delete-btn">
+                            <i class="fa fa-trash"></i>
+                        </a>
+                    }
+                    else
+                    {
+                        <a href="#" data-id="@item.Id" data-action="Edit Role" class="btn btn-primary btn-sm" disabled>
+                            <i class="fa fa-pencil"></i>
+                        </a>
+                        <a href="#" data-id="@item.Id" data-action="Delete Role" class="btn btn-danger btn-sm" disabled>
+                            <i class="fa fa-trash"></i>
+                        </a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

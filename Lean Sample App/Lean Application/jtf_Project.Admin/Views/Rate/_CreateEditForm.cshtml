@@ -1,0 +1,78 @@
+﻿@model jtf_Project.Data.Entities.Rate
+
+
+<div class="row">
+    <div class="col-md-12">
+        @using (Html.BeginForm("CreateEdit", "Rate", FormMethod.Post, new { @class = "form-horizontal" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.HiddenFor(m => m.Id)
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div id="responseDiv"></div>
+            <div class="form-group">
+                <label for="DestinationId" class="col-md-2 control-label">Destination</label>
+                <div class="col-md-10">
+                    @Html.DropDownListFor(m => m.DestinationId, Model.DestinationSelect, string.Empty, new { @class = "form-control chosen-select" })
+                    @Html.ValidationMessageFor(m => m.DestinationId, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="TruckId" class="col-md-2 control-label">Truck</label>
+                <div class="col-md-10">
+                    @Html.DropDownListFor(m => m.TruckId, Model.TruckSelect, string.Empty, new { @class = "form-control chosen-select" })
+                    @Html.ValidationMessageFor(m => m.TruckId, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Amount, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    <div class="input-group">
+                        @Html.TextBoxFor(m => m.Amount, "{0:0.00#}", new { @class = "form-control" })
+                        <span class="input-group-addon">
+                            &#8369;
+                        </span>
+                    </div>
+                    @Html.ValidationMessageFor(m => m.Amount, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.DriverCost, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    <div class="input-group">
+                        @Html.TextBoxFor(m => m.DriverCost, "{0:0.00#}", new { @class = "form-control" })
+                        <span class="input-group-addon">
+                            &#8369;
+                        </span>
+                    </div>
+                    @Html.ValidationMessageFor(m => m.DriverCost, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="HelperCost" class="col-md-2 control-label">Helper</label>
+                <div class="col-md-10">
+                    <div class="input-group">
+                        @Html.TextBoxFor(m => m.HelperCost,"{0:0.00#}", new { @class = "form-control" })
+                        <span class="input-group-addon">
+                            &#8369;
+                        </span>
+                    </div>
+
+                    @Html.ValidationMessageFor(m => m.HelperCost, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="WaterCost" class="col-md-2 control-label">Water</label>
+                <div class="col-md-10">
+                    <div class="input-group">
+                        @Html.TextBoxFor(m => m.WaterCost,"{0:0.00#}", new { @class = "form-control" })
+                        <span class="input-group-addon">
+                            &#8369;
+                        </span>
+                    </div>
+
+                    @Html.ValidationMessageFor(m => m.WaterCost, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        }
+    </div>
+</div>

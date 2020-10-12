@@ -1,0 +1,190 @@
+﻿@model jtf_Project.Admin.Models.ViewModels.UserVModel
+
+@{
+    bool isEmailDisabled = !string.IsNullOrEmpty(Model.Id) ? true : false;
+}
+<section class="content">
+    
+       <div class="row">
+           @using (Html.BeginForm("CreateEdit", "User", FormMethod.Post, new { enctype = "multipart/form-data", @class = "form-horizontal", id = "createEditForm" }))
+           {
+               @Html.AntiForgeryToken()
+               @Html.HiddenFor(m => m.Id)
+               @Html.HiddenFor(m => m.ProfileId)
+               @Html.HiddenFor(m=>m.Profile.ImageId)
+               <div class="col-md-9">
+                   @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                   <div id="responseDiv"></div>
+
+                   <div class="box box-default color-palette-box">
+                       <div class="box-header with-border">
+                           <h3 class="box-title"><i class="fa fa-user"></i> Profile</h3>
+                       </div>
+                       <div class="box-body">
+                           <div class="col-md-12">
+                               <div class="col-md-3">
+                                   <div class="form-group clearfix">
+                                       <div class="kv-avatar center-block" style="width:100%;">
+                                           <input id="UserPhoto" name="UserPhoto" data-imgpath="@Model.Profile.UserImage.ImageLocation" type="file" class="">
+                                       </div>
+                                       <div id="kv-avatar-errors" class="center-block" style="display:none"></div>
+                                   </div>
+                               </div>
+                               <div class="col-md-9 clearfix">
+                                   <div class="container-fluid">
+                                       <div class="form-group">
+                                           @Html.LabelFor(m => m.Email, new { @class = "col-md-3 control-label" })
+                                           <div class="col-md-9">
+                                               @if (isEmailDisabled)
+                                               { 
+                                                   <input type="text" class="form-control" value="@Model.Email" disabled />
+                                                    @Html.HiddenFor(m => m.Email)
+                                               }
+                                               else
+                                               {
+                                                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                                               }
+                                               
+                                               @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                                           </div>
+                                       </div>
+                                       <div class="form-group">
+                                           @Html.LabelFor(m => m.Profile.FirstName, new { @class = "col-md-3 control-label" })
+                                           <div class="col-md-9">
+                                               @Html.TextBoxFor(m => m.Profile.FirstName, new { @class = "form-control", required = "required" })
+                                               @Html.ValidationMessageFor(m => m.Profile.FirstName, "", new { @class = "text-danger" })
+                                           </div>
+                                       </div>
+                                       <div class="form-group">
+                                           @Html.LabelFor(m => m.Profile.MiddleName, new { @class = "col-md-3 control-label" })
+                                           <div class="col-md-9">
+                                               @Html.TextBoxFor(m => m.Profile.MiddleName, new { @class = "form-control" })
+                                               @Html.ValidationMessageFor(m => m.Profile.MiddleName, "", new { @class = "text-danger" })
+                                           </div>
+                                       </div>
+                                       <div class="form-group">
+                                           @Html.LabelFor(m => m.Profile.LastName, new { @class = "col-md-3 control-label" })
+                                           <div class="col-md-9">
+                                               @Html.TextBoxFor(m => m.Profile.LastName, new { @class = "form-control" })
+                                               @Html.ValidationMessageFor(m => m.Profile.LastName, "", new { @class = "text-danger" })
+                                           </div>
+                                       </div>
+                                       <div class="form-group">
+                                           @Html.LabelFor(m => m.ContactNumber, new { @class = "col-md-3 control-label" })
+                                           <div class="col-md-9">
+                                               @Html.TextBoxFor(m => m.ContactNumber, new { @class = "form-control" })
+                                               @Html.ValidationMessageFor(m => m.ContactNumber, "", new { @class = "text-danger" })
+                                           </div>
+                                       </div>
+                                       <div class="form-group">
+                                           @Html.LabelFor(m => m.Profile.Gender, new { @class = "col-md-3 control-label" })
+                                           <div class="col-md-9">
+                                               @Html.DropDownListFor(m => m.Profile.Gender, Model.Profile.GenderSelectlist, string.Empty, new { @class = "form-control chosen-select" })
+                                               @Html.ValidationMessageFor(m => m.Profile.Gender, "", new { @class = "text-danger" })
+                                           </div>
+                                       </div>
+                                       <div class="form-group">
+                                           @Html.LabelFor(m => m.Profile.BirthDate, new { @class = "col-md-3 control-label" })
+                                           <div class="col-md-9">
+                                               @Html.TextBoxFor(m => m.Profile.BirthDate, "{0:MM/dd/yyyy}", new { @class = "form-control datepicker" })
+                                               @Html.ValidationMessageFor(m => m.Profile.BirthDate, "", new { @class = "text-danger" })
+                                           </div>
+                                       </div>
+                                       <div class="form-group">
+                                           @Html.LabelFor(m => m.Profile.Address, new { @class = "col-md-3 control-label" })
+                                           <div class="col-md-9">
+                                               @Html.TextAreaFor(m => m.Profile.Address, 5, 4, new { @class = "form-control" })
+                                               @Html.ValidationMessageFor(m => m.Profile.Address, "", new { @class = "text-danger" })
+                                           </div>
+                                       </div>
+                                       <div class="form-group">
+                                           <div class="col-md-9 col-md-offset-3">
+                                               <div class="ckbox ckbox-primary">
+                                                   <label for="Status">@Html.CheckBoxFor(m => m.Status) Active</label>
+                                                   <label for="Status">@Html.CheckBoxFor(m => m.EmailConfirmed) Email Confirm</label>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="box-footer">
+                           @Html.Partial("_GenericButtons")
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-md-3">
+                   <div class="box box-default">
+                       <div class="box-header with-border">
+                           <h3 class="box-title"><i class="fa fa-briefcase"></i> Roles</h3>
+                       </div><!-- /.box-header -->
+                       <div class="box-body">
+                           <div class="form-group">
+                               <div class="col-sm-12">
+                                   @foreach (var item in Model.SystemRoles)
+                                   {
+                                       if (Model.Roles != null && Model.Roles.Contains(item))
+                                       {
+                                           <div class="ckbox ckbox-primary">
+                                               <input type="checkbox" id="@item" value="@item" name="SystemRoles" checked="checked">
+                                               <label for="@item">@item</label>
+                                           </div>
+                                       }
+                                       else
+                                       {
+                                           <div class="ckbox ckbox-primary">
+                                               <input type="checkbox" id="@item" value="@item" name="SystemRoles">
+                                               <label for="@item">@item</label>
+                                           </div>
+                                       }
+
+                                   }
+                               </div>
+                           </div>
+                       </div><!-- /.box-body -->
+                   </div><!-- /.box -->
+               </div>
+           }
+       </div>
+
+
+</section>
+
+@section styles{
+    <link href="~/Content/plugins/chosen-bootstrap/bootstrap-chosen.css" rel="stylesheet" />
+    <link href="~/Content/plugins/iCheck/flat/blue.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-fileinput/css/fileinput.min.css" rel="stylesheet" />
+
+    <style>
+        .kv-avatar .file-preview-frame, .kv-avatar .file-preview-frame:hover {
+            margin: 0;
+            padding: 0;
+            border: none;
+            box-shadow: none;
+            text-align: center;
+        }
+
+        .kv-avatar .file-input {
+            display: table-cell;
+            max-width: 220px;
+        }
+    </style>
+
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="~/Scripts/canvas-to-blob.min.js"></script>
+    <script src="~/Content/plugins/chosen-bootstrap/chosen.jquery.min.js"></script>
+    <script src="~/Content/plugins/iCheck/icheck.min.js"></script>
+    <script src="~/Scripts/fileinput.min.js"></script>
+
+    <script src="~/Content/plugins/datepicker/bootstrap-datepicker.js"></script>
+
+    <script src="~/Scripts/App/user-createedit.js"></script>
+}
+
+

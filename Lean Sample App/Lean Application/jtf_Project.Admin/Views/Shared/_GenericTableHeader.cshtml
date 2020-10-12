@@ -1,0 +1,28 @@
+﻿@model jtf_Project.Data.HelperModel.GenericTableRowVmodel
+
+
+@{
+    //The counter is for table number
+    int counter = 1;
+}
+
+
+<thead>
+    <tr>
+        @if (Model.Setting.IncludeRowNumber)
+        {
+            <th>@counter</th>
+        }
+
+        @foreach (var cell in Model.Cells)
+        {
+            counter++;
+            <th>@cell.Name</th>
+        }
+
+        @if (Model.Setting.IncludeActionColumn)
+        {
+            <th style="width:10%;">Actions</th>
+        }
+    </tr>
+</thead>

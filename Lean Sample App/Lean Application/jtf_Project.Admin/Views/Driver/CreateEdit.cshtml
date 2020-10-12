@@ -1,0 +1,148 @@
+﻿@model jtf_Project.Admin.Models.ViewModels.DriverVModel
+
+@{
+    
+}
+<section class="content">
+
+    <div class="row">
+        @using (Html.BeginForm("CreateEdit", "Driver", FormMethod.Post, new { enctype = "multipart/form-data", @class = "form-horizontal", id = "createEditForm" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.HiddenFor(m => m.Id)
+            @Html.HiddenFor(m => m.ImageId)
+            <div class="col-md-9">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                <div id="responseDiv"></div>
+
+                <div class="box box-default color-palette-box">
+                    <div class="box-header with-border">
+                        <h3 class="box-title"><i class="fa fa-user"></i> Driver's Profile</h3>
+                    </div>
+                    <div class="box-body">
+                        <div class="col-md-12">
+                            <div class="col-md-3">
+                                <div class="form-group clearfix">
+                                    <div class="kv-avatar center-block" style="width:100%;">
+                                        <input id="UserPhoto" name="UserPhoto" data-imgpath="@Model.UserImage.ImageLocation" type="file" class="">
+                                    </div>
+                                    <div id="kv-avatar-errors" class="center-block" style="display:none"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-9 clearfix">
+                                <div class="container-fluid">
+
+                                    <div class="form-group">
+                                        @Html.LabelFor(m => m.FirstName, new { @class = "col-md-3 control-label" })
+                                        <div class="col-md-9">
+                                            @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control", required = "required" })
+                                            @Html.ValidationMessageFor(m => m.FirstName, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        @Html.LabelFor(m => m.MiddleName, new { @class = "col-md-3 control-label" })
+                                        <div class="col-md-9">
+                                            @Html.TextBoxFor(m => m.MiddleName, new { @class = "form-control" })
+                                            @Html.ValidationMessageFor(m => m.MiddleName, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        @Html.LabelFor(m => m.LastName, new { @class = "col-md-3 control-label" })
+                                        <div class="col-md-9">
+                                            @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+                                            @Html.ValidationMessageFor(m => m.LastName, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="DateHired">Contact #</label>
+                                        <div class="col-md-9">
+                                            @Html.TextBoxFor(m => m.ContactNumber, new { @class = "form-control" })
+                                            @Html.ValidationMessageFor(m => m.ContactNumber, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        @Html.LabelFor(m => m.Gender, new { @class = "col-md-3 control-label" })
+                                        <div class="col-md-9">
+                                            @Html.DropDownListFor(m => m.Gender, Model.GenderSelectlist, string.Empty, new { @class = "form-control chosen-select" })
+                                            @Html.ValidationMessageFor(m => m.Gender, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        @Html.LabelFor(m => m.BirthDate, new { @class = "col-md-3 control-label" })
+                                        <div class="col-md-9">
+                                            @Html.TextBoxFor(m => m.BirthDate, "{0:MM/dd/yyyy}", new { @class = "form-control datepicker" })
+                                            @Html.ValidationMessageFor(m => m.BirthDate, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        @Html.LabelFor(m => m.Address, new { @class = "col-md-3 control-label" })
+                                        <div class="col-md-9">
+                                            @Html.TextAreaFor(m => m.Address, 5, 4, new { @class = "form-control" })
+                                            @Html.ValidationMessageFor(m => m.Address, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="DateHired">Date Hired</label>
+                                        <div class="col-md-9">
+                                            @Html.TextBoxFor(m => m.DateHired, "{0:MM/dd/yyyy}", new { @class = "form-control datepicker" })
+                                            @Html.ValidationMessageFor(m => m.DateHired, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="DateOut">Date Retired</label>
+                                        <div class="col-md-9">
+                                            @Html.TextBoxFor(m => m.DateOut, "{0:MM/dd/yyyy}", new { @class = "form-control datepicker" })
+                                            @Html.ValidationMessageFor(m => m.DateOut, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-footer">
+                        @Html.Partial("_GenericButtons")
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+
+</section>
+
+@section styles{
+    <link href="~/Content/plugins/chosen-bootstrap/bootstrap-chosen.css" rel="stylesheet" />
+    <link href="~/Content/plugins/iCheck/flat/blue.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-fileinput/css/fileinput.min.css" rel="stylesheet" />
+
+    <style>
+        .kv-avatar .file-preview-frame, .kv-avatar .file-preview-frame:hover {
+            margin: 0;
+            padding: 0;
+            border: none;
+            box-shadow: none;
+            text-align: center;
+        }
+
+        .kv-avatar .file-input {
+            display: table-cell;
+            max-width: 220px;
+        }
+    </style>
+
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="~/Scripts/canvas-to-blob.min.js"></script>
+    <script src="~/Content/plugins/chosen-bootstrap/chosen.jquery.min.js"></script>
+    <script src="~/Content/plugins/iCheck/icheck.min.js"></script>
+    <script src="~/Scripts/fileinput.min.js"></script>
+
+    <script src="~/Content/plugins/datepicker/bootstrap-datepicker.js"></script>
+
+    <script src="~/Scripts/App/user-createedit.js"></script>
+}
+
+
